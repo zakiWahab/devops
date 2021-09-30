@@ -20,14 +20,14 @@
 
 	<distributionManagement>
 		<repository>
-			<id>release</id>
+			<id>central</id>
 			<name>releases</name>
-			<url>http://localhost:8082/artifactory/my-maven-repo-libs-release-local</url>
+			<url>http://localhost:8082/artifactory/my-maven-repo-libs-release</url>
 		</repository>
 		<snapshotRepository>
-			<id>snapshot</id>
+			<id>snapshots</id>
 			<name>snapshots</name>
-			<url>http://localhost:8082/artifactory/my-maven-repo-libs-snapshot-local/</url>
+			<url>http://localhost:8082/artifactory/my-maven-repo-libs-snapshot</url>
 		</snapshotRepository>
 	</distributionManagement>
 
